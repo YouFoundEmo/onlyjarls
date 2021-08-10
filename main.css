@@ -191,10 +191,10 @@ body{
 .post-lock table tr td:nth-child(2){
 	text-align: left;
 }
-.post-ad{
+.post-end{
 	padding: 10px;
 }
-.post-ad:hover{
+.post-end:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
