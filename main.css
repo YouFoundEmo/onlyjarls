@@ -58,6 +58,7 @@ body{
 	height: 200px;
 	margin: 0;
 	padding: 0;
+	background-image: url("pagebanner.png");
 	background-color: #428bff;
 	vertical-align: top;
 	text-align: center;
@@ -171,4 +172,29 @@ body{
 	text-align: right;
 	padding-right: 10px;
 	margin-bottom: 4px;
+}
+.post-lock table{
+	width: 100%;
+}
+.post-lock:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.post-lock table tr td:nth-child(1){
+	width: 40%;
+	height: 40px;
+	background-position: right;
+	background-image: url("oblivion.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.post-lock table tr td:nth-child(2){
+	text-align: left;
+}
+.post-ad{
+	padding: 10px;
+}
+.post-ad:hover{
+	text-decoration: underline;
+	cursor: pointer;
 }
